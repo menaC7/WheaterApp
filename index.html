@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheater App#2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="current-weather">
+            <div class="search-localization">
+                <input type="text" value="Tokyo" id="search" placeholder="search a local">
+            </div>
+
+            <div class="current-place">
+                <h1 id="city-address"></h1>
+                <p id="update-time"></p>
+            </div>
+
+            <div class="weather-infos">
+                <div>
+                    <img src="./imgs/icons/clear-day.svg" id="weather-icon">
+                </div>
+                <div>
+                    <h1 id="current-temp"></h1>
+                </div>
+                <div class="choose-temp-style">
+                    <button id="fahren-btn">F</button>
+                    <button id="celsius-btn">C</button>
+                </div>
+                <div class="temp-min-max">
+                    <p id="temp-max"></p>
+                    <p id="temp-min"></p>
+                </div>
+                <div class="wind-humidity">
+                    <p id="wind-speed"></p>
+                    <p id="humidity"></p>
+                </div>
+            </div>
+            <div class="weather-conditions">
+                <h2 id="current-conditions"></h2>
+                <p>_</p>
+                <h2 id="local-date"></h2>
+            </div>
+        </div>
+
+
+
+        <div class="next-weeks-weather">
+            
+        </div>
+
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+
